@@ -1,0 +1,10 @@
+# diff -u node.cpp.orig node.cpp
+--- node.cpp.orig       2015-06-28 02:15:20.030974784 +0000
++++ node.cpp    2015-06-28 02:15:33.000484918 +0000
+@@ -6,6 +6,7 @@
+ //  Copyright(C) 2005-2007 Taku Kudo <taku@chasen.org>
+ //
+ #include <cmath>
++#include <time.h>
+ #include "node.h"
+ #include "common.h"
